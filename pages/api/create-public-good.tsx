@@ -17,9 +17,8 @@ export default async function handler(
 
     // Insert data into the PublicGoods table
     await sql`
-      INSERT INTO PublicGoods (address, title, description, votes)
-      VALUES (${address}, ${title}, ${description}, ${votes});
-      
+      INSERT INTO PublicGoods (address, title, description, hot, cold)
+      VALUES (${address}, ${title}, ${description}, 0, 0);
     `;
 
     // Optionally, retrieve all entries from the PublicGoods table

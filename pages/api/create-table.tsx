@@ -12,7 +12,8 @@ export default async function handler(
             CREATE TABLE PublicGoods (
                 id SERIAL PRIMARY KEY,
                 address VARCHAR(42) NOT NULL,
-                votes INTEGER NOT NULL DEFAULT 0,
+                hot INTEGER NOT NULL DEFAULT 0,
+                cold INTEGER NOT NULL DEFAULT 0,
                 title VARCHAR(255) NOT NULL,
                 description TEXT NOT NULL
             );

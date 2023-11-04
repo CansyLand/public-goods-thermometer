@@ -6,7 +6,7 @@ import {  mainnet } from 'wagmi/chains'
 
 
 // 1. Get projectId
-const projectId = 'YOUR_PROJECT_ID'
+const projectId = '6d17bd295459b52adb39c8467bfdf5ef'
 
 // 2. Create wagmiConfig
 const metadata = {
@@ -24,7 +24,8 @@ const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
 const themeVariables = { 
   // '--w3m-color-mix': '#00BB7F',
   // '--w3m-color-mix-strength': 100,
-  '--w3m-accent': '#570DF8'}
+  '--w3m-accent': '#570DF8',
+  '--wcm-button-border-radius': '2px'}
 createWeb3Modal({ wagmiConfig, projectId, chains, themeVariables })
 
 
