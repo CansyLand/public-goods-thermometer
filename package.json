@@ -10,15 +10,21 @@
   },
   "dependencies": {
     "@vercel/postgres": "^0.5.1",
+    "@walletconnect/web3wallet": "^1.9.3",
+    "@web3modal/wagmi": "^3.2.0",
     "next": "14.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18",
+    "viem": "^1.18.4",
+    "wagmi": "^1.4.5"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "daisyui": "^3.9.4",
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
     "postcss": "^8",
