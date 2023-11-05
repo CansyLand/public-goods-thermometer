@@ -23,6 +23,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <div className="flex-none flex"> {/* Ensure this div is a flex container and centers its children vertically */}
             <ul className="menu menu-horizontal px-1">
             <li className='p-3'>
+                <Link href="/debug" className="btn btn-sm">
+                    Debug
+                </Link>
+            </li>
+            <li className='p-3'>
                 <Link href="/submit-public-good" className="btn btn-accent btn-sm">
                     Add Good
                 </Link>
