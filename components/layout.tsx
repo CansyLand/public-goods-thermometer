@@ -15,7 +15,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <>
         <div className="navbar bg-base-100">
           <div className="flex-1">
-            <a className="btn btn-ghost normal-case text-xl" href="/">Public Goods Thermometer</a>
+            <a className="btn btn-ghost normal-case text-xl" href="/">
+              <img src="hot-or-not.png" alt="Public Goods Thermometer" className="w-12 h-auto"/>
+              Hot or Not
+            </a>
           </div>
           <div className="flex-none flex"> {/* Ensure this div is a flex container and centers its children vertically */}
             <ul className="menu menu-horizontal px-1">
