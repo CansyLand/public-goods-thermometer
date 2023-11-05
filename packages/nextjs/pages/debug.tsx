@@ -5,6 +5,7 @@ import { MetaHeader } from "~~/components/MetaHeader";
 import { ContractUI } from "~~/components/scaffold-eth";
 import { ContractName } from "~~/utils/scaffold-eth/contract";
 import { getContractNames } from "~~/utils/scaffold-eth/contractNames";
+import Layout from "~~/components/layout";
 
 const selectedContractStorageKey = "scaffoldEth2.selectedContract";
 const contractNames = getContractNames();
@@ -22,7 +23,7 @@ const Debug: NextPage = () => {
   }, [selectedContract, setSelectedContract]);
 
   return (
-    <>
+    <><Layout>
       <MetaHeader
         title="Debug Contracts | Scaffold-ETH 2"
         description="Debug your deployed 🏗 Scaffold-ETH 2 contracts in an easy way"
@@ -67,6 +68,7 @@ const Debug: NextPage = () => {
           </code>{" "}
         </p>
       </div>
+      </Layout>
     </>
   );
 };
