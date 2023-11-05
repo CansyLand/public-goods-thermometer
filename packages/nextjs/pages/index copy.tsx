@@ -1,10 +1,10 @@
 // pages/index.tsx
-import Layout from '../components/layout';
+import Layout from '@/components/layout';
 import React, { useState, useEffect } from 'react';
 import { useWeb3Modal } from '@web3modal/wagmi/react';
 import VoteAnimation from '../components/VoteAnimation';
 import { getAccount } from '@wagmi/core';
-import EmojiParticles from '../components/EmojiParticles';
+import EmojiParticles from '@/components/EmojiParticles';
 const account = getAccount()
 console.log(account)
 
