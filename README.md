@@ -1,3 +1,10 @@
+How can we align developer efforts with community priorities or needed public goods?
+
+
+Ultimately I’m trying to help developers to make a tangible impact on communities and DAOs by focusing on the most pressing needs.
+
+The aim is to establish a public funding protocol where community members can propose and vote on ideas or critical problems that require immediate attention.
+
 # 🏗 Scaffold-ETH 2
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.

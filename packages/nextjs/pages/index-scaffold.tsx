@@ -6,8 +6,9 @@ import { MetaHeader } from "~~/components/MetaHeader";
 // Gnosis
 // public: 0xC626aeC9f41231e7ecbC03C48031662FeF248137
 // voting contract: 0xc85918FDC5035A922DE13Eb8B888Ab2f4f781FD1
-// https://gnosisscan.io/address/0xc85918fdc5035a922de13eb8b888ab2f4f781fd1
 
+// Gnosis
+// https://gnosisscan.io/address/0xc85918fdc5035a922de13eb8b888ab2f4f781fd1
 
 //  zkSync EVM
 //  https://testnet-zkevm.polygonscan.com/address/0x5f5a90f859bb03a816e01323d3d8a92bea94cd9f
